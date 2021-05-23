@@ -35,7 +35,7 @@ The project structure is based on the Udacity's project template:
 
   + 3_Training_a_Model.ipynb                              Notebook for training and deployment scripts
 
-  + source_pytorch              + model.py                Pytorch Binary classificator implementation
+  + source_pytorch              + model.py                Pytorch Binary classification implementation
                                 + predict.py              Python prediction implementation
                                 + train.py                Train function implementation
 
@@ -44,7 +44,7 @@ The project structure is based on the Udacity's project template:
 
   + notebook_ims                + *.png                   Images used in Notebooks
 
-  + helpers.py                                            Helpers funtions required for execution
+  + helpers.py                                            Helpers functions  required for execution
 
   + problem_unittests.py                                  Testing scripts
   ```
@@ -336,9 +336,9 @@ Accuracy After optimization
 
 ## Using the model
 
-  1. Execute the 2_Plagiarism_Feature_Engineering.ipynb (Load the data and write into plagirims_data directory to crean train and test data)
-  2. Execute 3_Training_a_Model.ipynb script to train and deployt the model
-  3. Delete all the resources from sagemaker
+  1. Execute the 2_Plagiarism_Feature_Engineering.ipynb (Load the data and write into plagirims_data directory to create train and test data)
+  2. Execute 3_Training_a_Model.ipynb script to train and deploy the model
+  3. Delete all the resources from Sagemaker
 
 ## Author 
 Fernando Bonilla [linkedin](https://www.linkedin.com/in/fer-bonilla/)
