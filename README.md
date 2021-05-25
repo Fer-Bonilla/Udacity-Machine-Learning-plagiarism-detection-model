@@ -18,8 +18,7 @@ Build a plagiarism detector that examines a text file and performs binary classi
 
 ## Pytorch Model Architecture
 
-
-
+![Pytorch model](https://github.com/Fer-Bonilla/Udacity-Machine-Learning-plagiarism-detection-model/blob/main/notebook_ims/network_architecture.png)
 
 ## Project structure
 
