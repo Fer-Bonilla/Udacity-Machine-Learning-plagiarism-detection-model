@@ -308,18 +308,18 @@ if __name__ == '__main__':
 The project structure is based on the Udacity's project template:
 
 Training Loss 
-  	```
-	Epoch: 10, Loss: 0.6487539325441632
-	Epoch: 20, Loss: 0.613213564668383
-	Epoch: 30, Loss: 0.5324599317141941
-	Epoch: 40, Loss: 0.4539638161659241
-	Epoch: 50, Loss: 0.3536339061600821
-	Epoch: 60, Loss: 0.301504128745624
-	Epoch: 70, Loss: 0.28896574676036835
-	Epoch: 80, Loss: 0.2756422853895596
-	Epoch: 90, Loss: 0.2657772238765444
-	Epoch: 100, Loss: 0.22072330649409974
-  	```
+```
+Epoch: 10, Loss: 0.6487539325441632
+Epoch: 20, Loss: 0.613213564668383
+Epoch: 30, Loss: 0.5324599317141941
+Epoch: 40, Loss: 0.4539638161659241
+Epoch: 50, Loss: 0.3536339061600821
+Epoch: 60, Loss: 0.301504128745624
+Epoch: 70, Loss: 0.28896574676036835
+Epoch: 80, Loss: 0.2756422853895596
+Epoch: 90, Loss: 0.2657772238765444
+Epoch: 100, Loss: 0.22072330649409974
+```
 
 Accuracy
   ```
