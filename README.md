@@ -85,8 +85,7 @@ class BinaryClassifier(nn.Module):
         # Add a fully connected layer
         self.fc1 = nn.Linear(input_features, hidden_dim)
         
-        # Add a fully connected layer
-        #self.fc2 = nn.Linear(hidden_dim, output_dim)
+        # Add a fully connected layer  
         self.fc2 = nn.Linear(hidden_dim, int(hidden_dim/2))
         
         # Add a fully connected layer
@@ -112,21 +111,14 @@ class BinaryClassifier(nn.Module):
         # Add a fully connected layer with Relu activation
         x = torch.relu(self.fc1(x))
         
-        #x = self.fc1(x)
-        
-        # add a RELU activation function
-        #x = F.relu(x)
-        
         # Add a dropout to avoid overfitting
         x = self.drop(x)
         
-        # Add a fully connected layer
+        # Add a fully connected layer with Relu activation function
         x = torch.relu(self.fc2(x))
-        #x = self.fc2(x)
         
         # Generate single, sigmoid-activated value as output
         x = torch.sigmoid(self.fc3(x))
-        #x = self.sigmoid(x)
         
         return x
   ```
